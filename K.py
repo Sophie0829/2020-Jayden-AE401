@@ -4,6 +4,8 @@ Created on Sat May 30 11:22:22 2020
 
 @author: jaych
 """
+sellRecord=[]
+
 while True:
     
     print("-------蘋果店交易系統-------")
@@ -38,8 +40,30 @@ while True:
         myApple = myApple - appleOut
         print("應收金額:",total,"元")
         print("目前庫存:",myApple,"顆")
+        
+        sellRecord.append(sellRecord)
+        print("目前交易紀錄:")
+        for i in range(len(n):
+                print(input,"賣出",sellRecord[myapple]"顆",appleOut*applePrice,"元")    
+      elif function==4:                
+         ####### 功能四 #######
+          print("感謝使用本系統 !")
+          break
+      else:
+          print("請輸入功能1~4!")
     
-    elif function==4:
-        ####### 功能四 #######
-        print("感謝使用本系統 !")
-        break
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+        
