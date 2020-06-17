@@ -71,8 +71,23 @@ while True:
                     if ch == v :
                         print("英文：", k)
                         found=True
-            if not found: 
-                    print("此單字未在字典中喔！請重新輸入")
+            if not found:                   
+                print("此單字未在字典中喔！請重新輸入") 
+    elif function == "5":
+           
+          score=(0)          
+          for k,v in d.items():         
+              print("中文:",v)
+              ans=k
+              if ans == k:
+                  score = score + 1
+                  print("答對了!!!!目前分數是", score)
+                  print("-")
+              else:
+                   print("答錯了!!!!目前分數是", score)
+                   print("-")
+          print("測驗結束,你的分數是:", score)
+    
     elif function == "6":
         print("感謝使用本系統!")
         break
@@ -82,19 +97,4 @@ while True:
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+    
